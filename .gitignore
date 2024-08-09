@@ -1,0 +1,4 @@
+/.vs
+/SampleRazorApp/bin
+/SampleRazorApp/obj
+/SampleRazorApp/*.user
