@@ -2,6 +2,20 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+
+    string[] data = new[] { "one", "two", "three" };
+
+    Func<dynamic, object> showList =@<ul class="h4">
+        @foreach (var ob in item)
+        {
+            <li>@ob</li>
+        }
+    </ul>;
+}
+@functions{
+    string hello(string name){
+        return $"Hello {name}!!";
+    }
 }
 
 <div class="text-center">
@@ -27,3 +41,5 @@
         <input type="submit" class="btn btn-primary"/>
     </form>
 </div>
+<p class="h4">@hello("太郎")</p>
+<p class="h4">@showList(data)</p>
