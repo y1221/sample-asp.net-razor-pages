@@ -3,3 +3,4 @@
 /SampleRazorApp/obj
 /SampleRazorApp/*.user
 /SampleRazorApp/wwwroot/lib
+SampleRazorApp/Properties/PublishProfiles/*.user
