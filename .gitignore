@@ -2,3 +2,4 @@
 /SampleRazorApp/bin
 /SampleRazorApp/obj
 /SampleRazorApp/*.user
+/SampleRazorApp/wwwroot/lib
